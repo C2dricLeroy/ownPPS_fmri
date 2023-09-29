@@ -1,0 +1,1063 @@
+2.1602 	WARNING 	Speech-to-text recognition module for PocketSphinx is not available (use command `pip install SpeechRecognition` to get it). Transcription will be unavailable using that service this session.
+2.1607 	WARNING 	Speech-to-text recognition using Google online services is not available (use command `pip install google-api-core google-auth google-cloud google-cloud-speech googleapis-common-protos` to get it). Transcription will be unavailable using that service this session.
+41.3105 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027702DEED60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027702DEED00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027702DEEA00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000027704320F10>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+41.3107 	EXP 	window1: mouseVisible = True
+41.3107 	EXP 	window1: backgroundImage = ''
+41.3107 	EXP 	window1: backgroundFit = 'none'
+41.3109 	EXP 	window1: mouseVisible = False
+41.3109 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+41.3110 	EXP 	window1: recordFrameIntervals = False
+41.4770 	EXP 	window1: recordFrameIntervals = True
+41.6597 	EXP 	Screen (0) actual frame rate measured at 60.12Hz
+41.6598 	EXP 	window1: recordFrameIntervals = False
+44.0200 	EXP 	Created text_norm = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_norm', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+44.0212 	EXP 	Created text_norm_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_norm_2', opacity=1.0, ori=0.0, pos=array([0.  , 0.55]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+44.0434 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0.55, 0.2 ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+44.0597 	EXP 	Created Mask_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='Mask_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='norm', win=Window(...))
+44.1181 	EXP 	Created Stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='Stim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='norm', win=Window(...))
+44.1417 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='?', units='height', win=Window(...), wrapWidth=1)
+44.1429 	EXP 	Created text_norm = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_norm', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+44.1439 	EXP 	Created text_norm_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_norm_2', opacity=1.0, ori=0.0, pos=array([0.  , 0.44]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+44.1454 	EXP 	Created text_norm_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='text_norm_2', opacity=1.0, ori=0.0, pos=array([0.  , 0.85]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1.8)
+44.1557 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0.5 , 0.22]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+44.1585 	EXP 	Created TextEnd = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TextEnd', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.8)
+44.2169 	EXP 	text_norm_2: alignText = 'left'
+44.2169 	EXP 	image: image = 'stim_yellow.jpg'
+44.2169 	EXP 	Mask_2: image = 'mask.jpg'
+44.2169 	EXP 	text_norm_2: alignText = 'left'
+44.2169 	EXP 	text_norm_2: alignText = 'center'
+44.2169 	EXP 	image: image = 'stim_yellow.jpg'
+44.2169 	EXP 	text_norm_2: height = 0.12
+44.2169 	EXP 	text_norm_2: height = 0.12
+44.2169 	EXP 	text_norm_2: height = 0.12
+44.2169 	EXP 	text_norm_2: text = 'Instruções'
+44.2169 	EXP 	text_norm_2: height = 0.1
+44.2169 	EXP 	text_norm_2: height = 0.1
+44.2169 	EXP 	text_norm_2: height = 0.1
+44.2169 	EXP 	text_norm_2: text = 'Por favor tenha em mente que o copo amarelo \npertence-lhe : \n \n e que o copo azul pertence ao avatar.'
+44.2169 	EXP 	text_norm: height = 0.1
+44.2169 	EXP 	text_norm: height = 0.1
+44.2169 	EXP 	text_norm: height = 0.1
+44.2169 	EXP 	text_norm: text = 'Se um " ? " aparece : \n     - Responder rapidamente com a sua dedo polegar se o copo estiver acessível \n     - Responder rapidamente com a sua dedo indicador  se o copo não estiver acessível \n \n Ready?'
+44.2312 	EXP 	window1: recordFrameIntervals = False
+44.2509 	EXP 	text_norm_2: autoDraw = True
+44.2509 	EXP 	text_norm: autoDraw = True
+44.2509 	EXP 	text_norm_2: autoDraw = True
+44.2509 	EXP 	TextEnd: height = 0.05
+44.2509 	EXP 	TextEnd: height = 0.05
+44.2509 	EXP 	TextEnd: height = 0.05
+44.2509 	EXP 	TextEnd: text = 'A experiência está terminada. Obrigado pela vossa participação ! \n\n'
+44.2509 	EXP 	image: autoDraw = True
+44.2714 	EXP 	window1: recordFrameIntervals = False
+69.1678 	EXP 	Created sequence: sequential, trialTypes=1, nReps=4, seed=None
+69.1832 	EXP 	text_norm: autoDraw = False
+69.1832 	EXP 	text_norm_2: autoDraw = False
+69.1832 	EXP 	text_norm_2: autoDraw = False
+69.1832 	EXP 	image: autoDraw = False
+69.1840 	EXP 	New trial (rep=0, index=0): None
+69.1990 	EXP 	Imported conditions0.csv as conditions, 60 conditions, 5 params
+69.2001 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+69.2007 	EXP 	New trial (rep=0, index=0): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+69.2153 	EXP 	Mask_2: autoDraw = True
+71.2746 	EXP 	Mask_2: autoDraw = False
+71.2746 	EXP 	Mask_2: autoDraw = False
+71.2746 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+71.2746 	EXP 	Stim: autoDraw = True
+73.7143 	EXP 	New trial (rep=0, index=1): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'y'), ('Midbreak', 'n')])
+73.7290 	EXP 	Stim: autoDraw = False
+73.7290 	EXP 	text_2: autoDraw = False
+73.7290 	EXP 	Mask_2: autoDraw = True
+75.7970 	EXP 	Mask_2: autoDraw = False
+75.7970 	EXP 	Mask_2: autoDraw = False
+75.7970 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+75.7970 	EXP 	Stim: autoDraw = True
+78.2594 	EXP 	Stim: autoDraw = False
+78.2594 	EXP 	text_2: autoDraw = True
+78.9985 	DATA 	Keypress: c
+79.4418 	EXP 	New trial (rep=0, index=2): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+79.4574 	EXP 	text_2: autoDraw = False
+79.4574 	EXP 	Mask_2: autoDraw = True
+81.5260 	EXP 	Mask_2: autoDraw = False
+81.5260 	EXP 	Mask_2: autoDraw = False
+81.5260 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+81.5260 	EXP 	Stim: autoDraw = True
+83.9704 	EXP 	New trial (rep=0, index=3): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+83.9864 	EXP 	Stim: autoDraw = False
+83.9864 	EXP 	text_2: autoDraw = False
+83.9864 	EXP 	Mask_2: autoDraw = True
+90.0503 	EXP 	Mask_2: autoDraw = False
+90.0503 	EXP 	Mask_2: autoDraw = False
+90.0503 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+90.0503 	EXP 	Stim: autoDraw = True
+92.4952 	EXP 	New trial (rep=0, index=4): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+92.5120 	EXP 	Stim: autoDraw = False
+92.5120 	EXP 	text_2: autoDraw = False
+92.5120 	EXP 	Mask_2: autoDraw = True
+98.5793 	EXP 	Mask_2: autoDraw = False
+98.5793 	EXP 	Mask_2: autoDraw = False
+98.5793 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+98.5793 	EXP 	Stim: autoDraw = True
+101.0216 	EXP 	New trial (rep=0, index=5): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+101.0373 	EXP 	Stim: autoDraw = False
+101.0373 	EXP 	text_2: autoDraw = False
+101.0373 	EXP 	Mask_2: autoDraw = True
+103.1156 	EXP 	Mask_2: autoDraw = False
+103.1156 	EXP 	Mask_2: autoDraw = False
+103.1156 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+103.1156 	EXP 	Stim: autoDraw = True
+105.5509 	EXP 	New trial (rep=0, index=6): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+105.5662 	EXP 	Stim: autoDraw = False
+105.5662 	EXP 	text_2: autoDraw = False
+105.5662 	EXP 	Mask_2: autoDraw = True
+109.6316 	EXP 	Mask_2: autoDraw = False
+109.6316 	EXP 	Mask_2: autoDraw = False
+109.6316 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+109.6316 	EXP 	Stim: autoDraw = True
+112.0780 	EXP 	New trial (rep=0, index=7): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+112.0936 	EXP 	Stim: autoDraw = False
+112.0936 	EXP 	text_2: autoDraw = False
+112.0936 	EXP 	Mask_2: autoDraw = True
+114.1643 	EXP 	Mask_2: autoDraw = False
+114.1643 	EXP 	Mask_2: autoDraw = False
+114.1643 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+114.1643 	EXP 	Stim: autoDraw = True
+116.6074 	EXP 	New trial (rep=0, index=8): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+116.6224 	EXP 	Stim: autoDraw = False
+116.6224 	EXP 	text_2: autoDraw = False
+116.6224 	EXP 	Mask_2: autoDraw = True
+118.6941 	EXP 	Mask_2: autoDraw = False
+118.6941 	EXP 	Mask_2: autoDraw = False
+118.6941 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+118.6941 	EXP 	Stim: autoDraw = True
+121.1337 	EXP 	New trial (rep=0, index=9): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+121.1507 	EXP 	Stim: autoDraw = False
+121.1507 	EXP 	text_2: autoDraw = False
+121.1507 	EXP 	Mask_2: autoDraw = True
+133.2105 	EXP 	Mask_2: autoDraw = False
+133.2105 	EXP 	Mask_2: autoDraw = False
+133.2105 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+133.2105 	EXP 	Stim: autoDraw = True
+135.6553 	EXP 	New trial (rep=0, index=10): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+135.6703 	EXP 	Stim: autoDraw = False
+135.6703 	EXP 	text_2: autoDraw = False
+135.6703 	EXP 	Mask_2: autoDraw = True
+139.7308 	EXP 	Mask_2: autoDraw = False
+139.7308 	EXP 	Mask_2: autoDraw = False
+139.7308 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+139.7308 	EXP 	Stim: autoDraw = True
+142.1823 	EXP 	New trial (rep=0, index=11): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'S'), ('resp', 'y'), ('Midbreak', 'n')])
+142.1978 	EXP 	Stim: autoDraw = False
+142.1978 	EXP 	text_2: autoDraw = False
+142.1978 	EXP 	Mask_2: autoDraw = True
+144.2568 	EXP 	Mask_2: autoDraw = False
+144.2568 	EXP 	Mask_2: autoDraw = False
+144.2568 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+144.2568 	EXP 	Stim: autoDraw = True
+146.7264 	EXP 	Stim: autoDraw = False
+146.7264 	EXP 	text_2: autoDraw = True
+147.4801 	DATA 	Keypress: c
+147.9096 	EXP 	New trial (rep=0, index=12): OrderedDict([('dist', 1), ('space', 'BOUND'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+147.9251 	EXP 	text_2: autoDraw = False
+147.9251 	EXP 	Mask_2: autoDraw = True
+149.9752 	EXP 	Mask_2: autoDraw = False
+149.9752 	EXP 	Mask_2: autoDraw = False
+149.9752 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+149.9752 	EXP 	Stim: autoDraw = True
+152.4219 	EXP 	New trial (rep=0, index=13): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+152.4382 	EXP 	Stim: autoDraw = False
+152.4382 	EXP 	text_2: autoDraw = False
+152.4382 	EXP 	Mask_2: autoDraw = True
+156.5072 	EXP 	Mask_2: autoDraw = False
+156.5072 	EXP 	Mask_2: autoDraw = False
+156.5072 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+156.5072 	EXP 	Stim: autoDraw = True
+158.9500 	EXP 	New trial (rep=0, index=14): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+158.9655 	EXP 	Stim: autoDraw = False
+158.9655 	EXP 	text_2: autoDraw = False
+158.9655 	EXP 	Mask_2: autoDraw = True
+161.0427 	EXP 	Mask_2: autoDraw = False
+161.0427 	EXP 	Mask_2: autoDraw = False
+161.0427 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+161.0427 	EXP 	Stim: autoDraw = True
+163.4616 	EXP 	New trial (rep=0, index=15): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+163.4785 	EXP 	Stim: autoDraw = False
+163.4785 	EXP 	text_2: autoDraw = False
+163.4785 	EXP 	Mask_2: autoDraw = True
+169.5339 	EXP 	Mask_2: autoDraw = False
+169.5339 	EXP 	Mask_2: autoDraw = False
+169.5339 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+169.5339 	EXP 	Stim: autoDraw = True
+171.9888 	EXP 	New trial (rep=0, index=16): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+172.0042 	EXP 	Stim: autoDraw = False
+172.0042 	EXP 	text_2: autoDraw = False
+172.0042 	EXP 	Mask_2: autoDraw = True
+174.0870 	EXP 	Mask_2: autoDraw = False
+174.0870 	EXP 	Mask_2: autoDraw = False
+174.0870 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+174.0870 	EXP 	Stim: autoDraw = True
+176.5182 	EXP 	New trial (rep=0, index=17): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+176.5332 	EXP 	Stim: autoDraw = False
+176.5332 	EXP 	text_2: autoDraw = False
+176.5332 	EXP 	Mask_2: autoDraw = True
+180.6122 	EXP 	Mask_2: autoDraw = False
+180.6122 	EXP 	Mask_2: autoDraw = False
+180.6122 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+180.6122 	EXP 	Stim: autoDraw = True
+183.0449 	EXP 	New trial (rep=0, index=18): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+183.0607 	EXP 	Stim: autoDraw = False
+183.0607 	EXP 	text_2: autoDraw = False
+183.0607 	EXP 	Mask_2: autoDraw = True
+185.1319 	EXP 	Mask_2: autoDraw = False
+185.1319 	EXP 	Mask_2: autoDraw = False
+185.1319 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+185.1319 	EXP 	Stim: autoDraw = True
+187.5742 	EXP 	New trial (rep=0, index=19): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'y'), ('Midbreak', 'n')])
+187.5894 	EXP 	Stim: autoDraw = False
+187.5894 	EXP 	text_2: autoDraw = False
+187.5894 	EXP 	Mask_2: autoDraw = True
+197.6543 	EXP 	Mask_2: autoDraw = False
+197.6543 	EXP 	Mask_2: autoDraw = False
+197.6543 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+197.6543 	EXP 	Stim: autoDraw = True
+200.1115 	EXP 	Stim: autoDraw = False
+200.1115 	EXP 	text_2: autoDraw = True
+200.7505 	DATA 	Keypress: b
+201.2943 	EXP 	New trial (rep=0, index=20): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+201.3101 	EXP 	text_2: autoDraw = False
+201.3101 	EXP 	Mask_2: autoDraw = True
+205.4001 	EXP 	Mask_2: autoDraw = False
+205.4001 	EXP 	Mask_2: autoDraw = False
+205.4001 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+205.4001 	EXP 	Stim: autoDraw = True
+207.8221 	EXP 	New trial (rep=0, index=21): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+207.8372 	EXP 	Stim: autoDraw = False
+207.8372 	EXP 	text_2: autoDraw = False
+207.8372 	EXP 	Mask_2: autoDraw = True
+209.9162 	EXP 	Mask_2: autoDraw = False
+209.9162 	EXP 	Mask_2: autoDraw = False
+209.9162 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+209.9162 	EXP 	Stim: autoDraw = True
+212.3497 	EXP 	New trial (rep=0, index=22): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+212.3661 	EXP 	Stim: autoDraw = False
+212.3661 	EXP 	text_2: autoDraw = False
+212.3661 	EXP 	Mask_2: autoDraw = True
+220.4340 	EXP 	Mask_2: autoDraw = False
+220.4340 	EXP 	Mask_2: autoDraw = False
+220.4340 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+220.4340 	EXP 	Stim: autoDraw = True
+222.8754 	EXP 	New trial (rep=0, index=23): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+222.8900 	EXP 	Stim: autoDraw = False
+222.8900 	EXP 	text_2: autoDraw = False
+222.8900 	EXP 	Mask_2: autoDraw = True
+226.9589 	EXP 	Mask_2: autoDraw = False
+226.9589 	EXP 	Mask_2: autoDraw = False
+226.9589 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+226.9589 	EXP 	Stim: autoDraw = True
+229.4016 	EXP 	New trial (rep=0, index=24): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+229.4178 	EXP 	Stim: autoDraw = False
+229.4178 	EXP 	text_2: autoDraw = False
+229.4178 	EXP 	Mask_2: autoDraw = True
+239.5001 	EXP 	Mask_2: autoDraw = False
+239.5001 	EXP 	Mask_2: autoDraw = False
+239.5001 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+239.5001 	EXP 	Stim: autoDraw = True
+241.9234 	EXP 	New trial (rep=0, index=25): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+241.9393 	EXP 	Stim: autoDraw = False
+241.9393 	EXP 	text_2: autoDraw = False
+241.9393 	EXP 	Mask_2: autoDraw = True
+244.0084 	EXP 	Mask_2: autoDraw = False
+244.0084 	EXP 	Mask_2: autoDraw = False
+244.0084 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+244.0084 	EXP 	Stim: autoDraw = True
+246.4531 	EXP 	New trial (rep=0, index=26): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+246.4682 	EXP 	Stim: autoDraw = False
+246.4682 	EXP 	text_2: autoDraw = False
+246.4682 	EXP 	Mask_2: autoDraw = True
+250.5327 	EXP 	Mask_2: autoDraw = False
+250.5327 	EXP 	Mask_2: autoDraw = False
+250.5327 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+250.5327 	EXP 	Stim: autoDraw = True
+252.9798 	EXP 	New trial (rep=0, index=27): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+252.9952 	EXP 	Stim: autoDraw = False
+252.9952 	EXP 	text_2: autoDraw = False
+252.9952 	EXP 	Mask_2: autoDraw = True
+257.0595 	EXP 	Mask_2: autoDraw = False
+257.0595 	EXP 	Mask_2: autoDraw = False
+257.0595 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+257.0595 	EXP 	Stim: autoDraw = True
+259.5062 	EXP 	New trial (rep=0, index=28): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+259.5227 	EXP 	Stim: autoDraw = False
+259.5227 	EXP 	text_2: autoDraw = False
+259.5227 	EXP 	Mask_2: autoDraw = True
+263.5990 	EXP 	Mask_2: autoDraw = False
+263.5990 	EXP 	Mask_2: autoDraw = False
+263.5990 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+263.5990 	EXP 	Stim: autoDraw = True
+266.0340 	EXP 	New trial (rep=0, index=29): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+266.0500 	EXP 	Stim: autoDraw = False
+266.0500 	EXP 	text_2: autoDraw = False
+266.0500 	EXP 	Mask_2: autoDraw = True
+268.1231 	EXP 	Mask_2: autoDraw = False
+268.1231 	EXP 	Mask_2: autoDraw = False
+268.1231 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+268.1231 	EXP 	Stim: autoDraw = True
+270.5633 	EXP 	New trial (rep=0, index=30): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+270.5790 	EXP 	Stim: autoDraw = False
+270.5790 	EXP 	text_2: autoDraw = False
+270.5790 	EXP 	Mask_2: autoDraw = True
+274.6625 	EXP 	Mask_2: autoDraw = False
+274.6625 	EXP 	Mask_2: autoDraw = False
+274.6625 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+274.6625 	EXP 	Stim: autoDraw = True
+277.0903 	EXP 	New trial (rep=0, index=31): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+277.1071 	EXP 	Stim: autoDraw = False
+277.1071 	EXP 	text_2: autoDraw = False
+277.1071 	EXP 	Mask_2: autoDraw = True
+279.1767 	EXP 	Mask_2: autoDraw = False
+279.1767 	EXP 	Mask_2: autoDraw = False
+279.1767 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+279.1767 	EXP 	Stim: autoDraw = True
+281.6198 	EXP 	New trial (rep=0, index=32): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+281.6351 	EXP 	Stim: autoDraw = False
+281.6351 	EXP 	text_2: autoDraw = False
+281.6351 	EXP 	Mask_2: autoDraw = True
+283.7013 	EXP 	Mask_2: autoDraw = False
+283.7013 	EXP 	Mask_2: autoDraw = False
+283.7013 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+283.7013 	EXP 	Stim: autoDraw = True
+286.1320 	EXP 	New trial (rep=0, index=33): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+286.1478 	EXP 	Stim: autoDraw = False
+286.1478 	EXP 	text_2: autoDraw = False
+286.1478 	EXP 	Mask_2: autoDraw = True
+288.2182 	EXP 	Mask_2: autoDraw = False
+288.2182 	EXP 	Mask_2: autoDraw = False
+288.2182 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+288.2182 	EXP 	Stim: autoDraw = True
+290.6611 	EXP 	New trial (rep=0, index=34): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+290.6769 	EXP 	Stim: autoDraw = False
+290.6769 	EXP 	text_2: autoDraw = False
+290.6769 	EXP 	Mask_2: autoDraw = True
+292.7561 	EXP 	Mask_2: autoDraw = False
+292.7561 	EXP 	Mask_2: autoDraw = False
+292.7561 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+292.7561 	EXP 	Stim: autoDraw = True
+295.1899 	EXP 	New trial (rep=0, index=35): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+295.2063 	EXP 	Stim: autoDraw = False
+295.2063 	EXP 	text_2: autoDraw = False
+295.2063 	EXP 	Mask_2: autoDraw = True
+305.2653 	EXP 	Mask_2: autoDraw = False
+305.2653 	EXP 	Mask_2: autoDraw = False
+305.2653 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+305.2653 	EXP 	Stim: autoDraw = True
+307.7118 	EXP 	New trial (rep=0, index=36): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+307.7277 	EXP 	Stim: autoDraw = False
+307.7277 	EXP 	text_2: autoDraw = False
+307.7277 	EXP 	Mask_2: autoDraw = True
+311.7979 	EXP 	Mask_2: autoDraw = False
+311.7979 	EXP 	Mask_2: autoDraw = False
+311.7979 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+311.7979 	EXP 	Stim: autoDraw = True
+314.2391 	EXP 	New trial (rep=0, index=37): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+314.2551 	EXP 	Stim: autoDraw = False
+314.2551 	EXP 	text_2: autoDraw = False
+314.2551 	EXP 	Mask_2: autoDraw = True
+316.3301 	EXP 	Mask_2: autoDraw = False
+316.3301 	EXP 	Mask_2: autoDraw = False
+316.3301 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+316.3301 	EXP 	Stim: autoDraw = True
+318.7681 	EXP 	New trial (rep=0, index=38): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+318.7842 	EXP 	Stim: autoDraw = False
+318.7842 	EXP 	text_2: autoDraw = False
+318.7842 	EXP 	Mask_2: autoDraw = True
+320.8514 	EXP 	Mask_2: autoDraw = False
+320.8514 	EXP 	Mask_2: autoDraw = False
+320.8514 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+320.8514 	EXP 	Stim: autoDraw = True
+323.2955 	EXP 	New trial (rep=0, index=39): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+323.3122 	EXP 	Stim: autoDraw = False
+323.3122 	EXP 	text_2: autoDraw = False
+323.3122 	EXP 	Mask_2: autoDraw = True
+327.3808 	EXP 	Mask_2: autoDraw = False
+327.3808 	EXP 	Mask_2: autoDraw = False
+327.3808 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+327.3808 	EXP 	Stim: autoDraw = True
+329.8249 	EXP 	New trial (rep=0, index=40): OrderedDict([('dist', 1), ('space', 'BOUND'), ('own', 'O'), ('resp', 'y'), ('Midbreak', 'n')])
+329.8402 	EXP 	Stim: autoDraw = False
+329.8402 	EXP 	text_2: autoDraw = False
+329.8402 	EXP 	Mask_2: autoDraw = True
+331.9063 	EXP 	Mask_2: autoDraw = False
+331.9063 	EXP 	Mask_2: autoDraw = False
+331.9063 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+331.9063 	EXP 	Stim: autoDraw = True
+334.3691 	EXP 	Stim: autoDraw = False
+334.3691 	EXP 	text_2: autoDraw = True
+335.1422 	DATA 	Keypress: c
+335.5528 	EXP 	New trial (rep=0, index=41): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+335.5680 	EXP 	text_2: autoDraw = False
+335.5680 	EXP 	Mask_2: autoDraw = True
+339.6350 	EXP 	Mask_2: autoDraw = False
+339.6350 	EXP 	Mask_2: autoDraw = False
+339.6350 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+339.6350 	EXP 	Stim: autoDraw = True
+342.0801 	EXP 	New trial (rep=0, index=42): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+342.0954 	EXP 	Stim: autoDraw = False
+342.0954 	EXP 	text_2: autoDraw = False
+342.0954 	EXP 	Mask_2: autoDraw = True
+346.1607 	EXP 	Mask_2: autoDraw = False
+346.1607 	EXP 	Mask_2: autoDraw = False
+346.1607 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+346.1607 	EXP 	Stim: autoDraw = True
+348.6077 	EXP 	New trial (rep=0, index=43): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+348.6223 	EXP 	Stim: autoDraw = False
+348.6223 	EXP 	text_2: autoDraw = False
+348.6223 	EXP 	Mask_2: autoDraw = True
+350.6927 	EXP 	Mask_2: autoDraw = False
+350.6927 	EXP 	Mask_2: autoDraw = False
+350.6927 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+350.6927 	EXP 	Stim: autoDraw = True
+353.1363 	EXP 	New trial (rep=0, index=44): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+353.1520 	EXP 	Stim: autoDraw = False
+353.1520 	EXP 	text_2: autoDraw = False
+353.1520 	EXP 	Mask_2: autoDraw = True
+355.2238 	EXP 	Mask_2: autoDraw = False
+355.2238 	EXP 	Mask_2: autoDraw = False
+355.2238 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+355.2238 	EXP 	Stim: autoDraw = True
+357.6652 	EXP 	New trial (rep=0, index=45): OrderedDict([('dist', 2), ('space', 'BOUND'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+357.6812 	EXP 	Stim: autoDraw = False
+357.6812 	EXP 	text_2: autoDraw = False
+357.6812 	EXP 	Mask_2: autoDraw = True
+363.7669 	EXP 	Mask_2: autoDraw = False
+363.7669 	EXP 	Mask_2: autoDraw = False
+363.7669 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+363.7669 	EXP 	Stim: autoDraw = True
+366.1906 	EXP 	New trial (rep=0, index=46): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+366.2065 	EXP 	Stim: autoDraw = False
+366.2065 	EXP 	text_2: autoDraw = False
+366.2065 	EXP 	Mask_2: autoDraw = True
+368.2788 	EXP 	Mask_2: autoDraw = False
+368.2788 	EXP 	Mask_2: autoDraw = False
+368.2788 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+368.2788 	EXP 	Stim: autoDraw = True
+370.7199 	EXP 	New trial (rep=0, index=47): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+370.7354 	EXP 	Stim: autoDraw = False
+370.7354 	EXP 	text_2: autoDraw = False
+370.7354 	EXP 	Mask_2: autoDraw = True
+372.8048 	EXP 	Mask_2: autoDraw = False
+372.8048 	EXP 	Mask_2: autoDraw = False
+372.8048 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+372.8048 	EXP 	Stim: autoDraw = True
+375.2495 	EXP 	New trial (rep=0, index=48): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'y'), ('Midbreak', 'n')])
+375.2646 	EXP 	Stim: autoDraw = False
+375.2646 	EXP 	text_2: autoDraw = False
+375.2646 	EXP 	Mask_2: autoDraw = True
+379.3309 	EXP 	Mask_2: autoDraw = False
+379.3309 	EXP 	Mask_2: autoDraw = False
+379.3309 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+379.3309 	EXP 	Stim: autoDraw = True
+381.7915 	EXP 	Stim: autoDraw = False
+381.7915 	EXP 	text_2: autoDraw = True
+382.5470 	DATA 	Keypress: c
+382.9749 	EXP 	New trial (rep=0, index=49): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+382.9896 	EXP 	text_2: autoDraw = False
+382.9896 	EXP 	Mask_2: autoDraw = True
+385.0557 	EXP 	Mask_2: autoDraw = False
+385.0557 	EXP 	Mask_2: autoDraw = False
+385.0557 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+385.0557 	EXP 	Stim: autoDraw = True
+387.4878 	EXP 	New trial (rep=0, index=50): OrderedDict([('dist', 2), ('space', 'BOUND'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+387.5029 	EXP 	Stim: autoDraw = False
+387.5029 	EXP 	text_2: autoDraw = False
+387.5029 	EXP 	Mask_2: autoDraw = True
+389.5706 	EXP 	Mask_2: autoDraw = False
+389.5706 	EXP 	Mask_2: autoDraw = False
+389.5706 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+389.5706 	EXP 	Stim: autoDraw = True
+392.0167 	EXP 	New trial (rep=0, index=51): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+392.0320 	EXP 	Stim: autoDraw = False
+392.0320 	EXP 	text_2: autoDraw = False
+392.0320 	EXP 	Mask_2: autoDraw = True
+398.1036 	EXP 	Mask_2: autoDraw = False
+398.1036 	EXP 	Mask_2: autoDraw = False
+398.1036 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+398.1036 	EXP 	Stim: autoDraw = True
+400.5422 	EXP 	New trial (rep=0, index=52): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'y'), ('Midbreak', 'n')])
+400.5578 	EXP 	Stim: autoDraw = False
+400.5578 	EXP 	text_2: autoDraw = False
+400.5578 	EXP 	Mask_2: autoDraw = True
+402.6221 	EXP 	Mask_2: autoDraw = False
+402.6221 	EXP 	Mask_2: autoDraw = False
+402.6221 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+402.6221 	EXP 	Stim: autoDraw = True
+405.0869 	EXP 	Stim: autoDraw = False
+405.0869 	EXP 	text_2: autoDraw = True
+405.7582 	DATA 	Keypress: b
+406.2695 	EXP 	New trial (rep=0, index=53): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+406.2857 	EXP 	text_2: autoDraw = False
+406.2857 	EXP 	Mask_2: autoDraw = True
+412.3627 	EXP 	Mask_2: autoDraw = False
+412.3627 	EXP 	Mask_2: autoDraw = False
+412.3627 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+412.3627 	EXP 	Stim: autoDraw = True
+414.7951 	EXP 	New trial (rep=0, index=54): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+414.8114 	EXP 	Stim: autoDraw = False
+414.8114 	EXP 	text_2: autoDraw = False
+414.8114 	EXP 	Mask_2: autoDraw = True
+418.8987 	EXP 	Mask_2: autoDraw = False
+418.8987 	EXP 	Mask_2: autoDraw = False
+418.8987 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+418.8987 	EXP 	Stim: autoDraw = True
+421.3227 	EXP 	New trial (rep=0, index=55): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+421.3384 	EXP 	Stim: autoDraw = False
+421.3384 	EXP 	text_2: autoDraw = False
+421.3384 	EXP 	Mask_2: autoDraw = True
+425.3986 	EXP 	Mask_2: autoDraw = False
+425.3986 	EXP 	Mask_2: autoDraw = False
+425.3986 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+425.3986 	EXP 	Stim: autoDraw = True
+427.8498 	EXP 	New trial (rep=0, index=56): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+427.8653 	EXP 	Stim: autoDraw = False
+427.8653 	EXP 	text_2: autoDraw = False
+427.8653 	EXP 	Mask_2: autoDraw = True
+431.9291 	EXP 	Mask_2: autoDraw = False
+431.9291 	EXP 	Mask_2: autoDraw = False
+431.9291 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+431.9291 	EXP 	Stim: autoDraw = True
+434.3773 	EXP 	New trial (rep=0, index=57): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+434.3926 	EXP 	Stim: autoDraw = False
+434.3926 	EXP 	text_2: autoDraw = False
+434.3926 	EXP 	Mask_2: autoDraw = True
+438.4631 	EXP 	Mask_2: autoDraw = False
+438.4631 	EXP 	Mask_2: autoDraw = False
+438.4631 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+438.4631 	EXP 	Stim: autoDraw = True
+440.9040 	EXP 	New trial (rep=0, index=58): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+440.9202 	EXP 	Stim: autoDraw = False
+440.9202 	EXP 	text_2: autoDraw = False
+440.9202 	EXP 	Mask_2: autoDraw = True
+443.0117 	EXP 	Mask_2: autoDraw = False
+443.0117 	EXP 	Mask_2: autoDraw = False
+443.0117 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+443.0117 	EXP 	Stim: autoDraw = True
+445.4339 	EXP 	New trial (rep=0, index=59): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+445.4495 	EXP 	Stim: autoDraw = False
+445.4495 	EXP 	text_2: autoDraw = False
+445.4495 	EXP 	Mask_2: autoDraw = True
+447.5306 	EXP 	Mask_2: autoDraw = False
+447.5306 	EXP 	Mask_2: autoDraw = False
+447.5306 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+447.5306 	EXP 	Stim: autoDraw = True
+449.9755 	EXP 	New trial (rep=1, index=0): None
+449.9875 	EXP 	Imported conditions1.csv as conditions, 60 conditions, 5 params
+449.9884 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+449.9888 	EXP 	New trial (rep=0, index=0): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+449.9967 	EXP 	Stim: autoDraw = False
+449.9967 	EXP 	text_2: autoDraw = False
+449.9967 	EXP 	text_norm_2: height = 0.12
+449.9967 	EXP 	text_norm_2: height = 0.12
+449.9967 	EXP 	text_norm_2: height = 0.12
+449.9967 	EXP 	text_norm_2: text = 'Pausa'
+449.9967 	EXP 	text_norm: autoDraw = False
+449.9967 	EXP 	text_norm_2: autoDraw = False
+449.9967 	EXP 	text_norm_2: autoDraw = False
+449.9967 	EXP 	image: autoDraw = False
+449.9967 	EXP 	Mask_2: autoDraw = True
+452.0603 	EXP 	Mask_2: autoDraw = False
+452.0603 	EXP 	Mask_2: autoDraw = False
+452.0603 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+452.0603 	EXP 	Stim: autoDraw = True
+454.5093 	EXP 	New trial (rep=0, index=1): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+454.5251 	EXP 	Stim: autoDraw = False
+454.5251 	EXP 	text_2: autoDraw = False
+454.5251 	EXP 	Mask_2: autoDraw = True
+456.5913 	EXP 	Mask_2: autoDraw = False
+456.5913 	EXP 	Mask_2: autoDraw = False
+456.5913 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+456.5913 	EXP 	Stim: autoDraw = True
+459.0372 	EXP 	New trial (rep=0, index=2): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+459.0529 	EXP 	Stim: autoDraw = False
+459.0529 	EXP 	text_2: autoDraw = False
+459.0529 	EXP 	Mask_2: autoDraw = True
+461.1207 	EXP 	Mask_2: autoDraw = False
+461.1207 	EXP 	Mask_2: autoDraw = False
+461.1207 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+461.1207 	EXP 	Stim: autoDraw = True
+463.5663 	EXP 	New trial (rep=0, index=3): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+463.5824 	EXP 	Stim: autoDraw = False
+463.5824 	EXP 	text_2: autoDraw = False
+463.5824 	EXP 	Mask_2: autoDraw = True
+469.6547 	EXP 	Mask_2: autoDraw = False
+469.6547 	EXP 	Mask_2: autoDraw = False
+469.6547 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+469.6547 	EXP 	Stim: autoDraw = True
+472.0918 	EXP 	New trial (rep=0, index=4): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+472.1072 	EXP 	Stim: autoDraw = False
+472.1072 	EXP 	text_2: autoDraw = False
+472.1072 	EXP 	Mask_2: autoDraw = True
+478.1647 	EXP 	Mask_2: autoDraw = False
+478.1647 	EXP 	Mask_2: autoDraw = False
+478.1647 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+478.1647 	EXP 	Stim: autoDraw = True
+480.6175 	EXP 	New trial (rep=0, index=5): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+480.6331 	EXP 	Stim: autoDraw = False
+480.6331 	EXP 	text_2: autoDraw = False
+480.6331 	EXP 	Mask_2: autoDraw = True
+482.7042 	EXP 	Mask_2: autoDraw = False
+482.7042 	EXP 	Mask_2: autoDraw = False
+482.7042 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+482.7042 	EXP 	Stim: autoDraw = True
+485.1467 	EXP 	New trial (rep=0, index=6): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+485.1621 	EXP 	Stim: autoDraw = False
+485.1621 	EXP 	text_2: autoDraw = False
+485.1621 	EXP 	Mask_2: autoDraw = True
+489.2270 	EXP 	Mask_2: autoDraw = False
+489.2270 	EXP 	Mask_2: autoDraw = False
+489.2270 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+489.2270 	EXP 	Stim: autoDraw = True
+491.6736 	EXP 	New trial (rep=0, index=7): OrderedDict([('dist', 2), ('space', 'BOUND'), ('own', 'S'), ('resp', 'y'), ('Midbreak', 'n')])
+491.6889 	EXP 	Stim: autoDraw = False
+491.6889 	EXP 	text_2: autoDraw = False
+491.6889 	EXP 	Mask_2: autoDraw = True
+493.7573 	EXP 	Mask_2: autoDraw = False
+493.7573 	EXP 	Mask_2: autoDraw = False
+493.7573 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+493.7573 	EXP 	Stim: autoDraw = True
+496.2184 	EXP 	Stim: autoDraw = False
+496.2184 	EXP 	text_2: autoDraw = True
+497.0725 	DATA 	Keypress: b
+497.4013 	EXP 	New trial (rep=0, index=8): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+497.4172 	EXP 	text_2: autoDraw = False
+497.4172 	EXP 	Mask_2: autoDraw = True
+499.4917 	EXP 	Mask_2: autoDraw = False
+499.4917 	EXP 	Mask_2: autoDraw = False
+499.4917 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+499.4917 	EXP 	Stim: autoDraw = True
+501.9303 	EXP 	New trial (rep=0, index=9): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+501.9464 	EXP 	Stim: autoDraw = False
+501.9464 	EXP 	text_2: autoDraw = False
+501.9464 	EXP 	Mask_2: autoDraw = True
+514.0104 	EXP 	Mask_2: autoDraw = False
+514.0104 	EXP 	Mask_2: autoDraw = False
+514.0104 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+514.0104 	EXP 	Stim: autoDraw = True
+516.4507 	EXP 	New trial (rep=0, index=10): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+516.4658 	EXP 	Stim: autoDraw = False
+516.4658 	EXP 	text_2: autoDraw = False
+516.4658 	EXP 	Mask_2: autoDraw = True
+520.5376 	EXP 	Mask_2: autoDraw = False
+520.5376 	EXP 	Mask_2: autoDraw = False
+520.5376 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+520.5376 	EXP 	Stim: autoDraw = True
+522.9781 	EXP 	New trial (rep=0, index=11): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+522.9931 	EXP 	Stim: autoDraw = False
+522.9931 	EXP 	text_2: autoDraw = False
+522.9931 	EXP 	Mask_2: autoDraw = True
+525.0591 	EXP 	Mask_2: autoDraw = False
+525.0591 	EXP 	Mask_2: autoDraw = False
+525.0591 	EXP 	Stim: image = 'stim_25_y_u.jpg'
+525.0591 	EXP 	Stim: autoDraw = True
+527.5070 	EXP 	New trial (rep=0, index=12): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+527.5224 	EXP 	Stim: autoDraw = False
+527.5224 	EXP 	text_2: autoDraw = False
+527.5224 	EXP 	Mask_2: autoDraw = True
+529.6043 	EXP 	Mask_2: autoDraw = False
+529.6043 	EXP 	Mask_2: autoDraw = False
+529.6043 	EXP 	Stim: image = 'stim_75_b_u.jpg'
+529.6043 	EXP 	Stim: autoDraw = True
+532.0342 	EXP 	New trial (rep=0, index=13): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+532.0504 	EXP 	Stim: autoDraw = False
+532.0504 	EXP 	text_2: autoDraw = False
+532.0504 	EXP 	Mask_2: autoDraw = True
+536.1210 	EXP 	Mask_2: autoDraw = False
+536.1210 	EXP 	Mask_2: autoDraw = False
+536.1210 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+536.1210 	EXP 	Stim: autoDraw = True
+538.5632 	EXP 	New trial (rep=0, index=14): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+538.5795 	EXP 	Stim: autoDraw = False
+538.5795 	EXP 	text_2: autoDraw = False
+538.5795 	EXP 	Mask_2: autoDraw = True
+540.6501 	EXP 	Mask_2: autoDraw = False
+540.6501 	EXP 	Mask_2: autoDraw = False
+540.6501 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+540.6501 	EXP 	Stim: autoDraw = True
+543.0925 	EXP 	New trial (rep=0, index=15): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+543.1077 	EXP 	Stim: autoDraw = False
+543.1077 	EXP 	text_2: autoDraw = False
+543.1077 	EXP 	Mask_2: autoDraw = True
+549.1743 	EXP 	Mask_2: autoDraw = False
+549.1743 	EXP 	Mask_2: autoDraw = False
+549.1743 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+549.1743 	EXP 	Stim: autoDraw = True
+551.6183 	EXP 	New trial (rep=0, index=16): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+551.6332 	EXP 	Stim: autoDraw = False
+551.6332 	EXP 	text_2: autoDraw = False
+551.6332 	EXP 	Mask_2: autoDraw = True
+553.7016 	EXP 	Mask_2: autoDraw = False
+553.7016 	EXP 	Mask_2: autoDraw = False
+553.7016 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+553.7016 	EXP 	Stim: autoDraw = True
+556.1469 	EXP 	New trial (rep=0, index=17): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+556.1623 	EXP 	Stim: autoDraw = False
+556.1623 	EXP 	text_2: autoDraw = False
+556.1623 	EXP 	Mask_2: autoDraw = True
+560.2255 	EXP 	Mask_2: autoDraw = False
+560.2255 	EXP 	Mask_2: autoDraw = False
+560.2255 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+560.2255 	EXP 	Stim: autoDraw = True
+562.6739 	EXP 	New trial (rep=0, index=18): OrderedDict([('dist', 1), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+562.6889 	EXP 	Stim: autoDraw = False
+562.6889 	EXP 	text_2: autoDraw = False
+562.6889 	EXP 	Mask_2: autoDraw = True
+564.7588 	EXP 	Mask_2: autoDraw = False
+564.7588 	EXP 	Mask_2: autoDraw = False
+564.7588 	EXP 	Stim: image = 'stim_75_y_u.jpg'
+564.7588 	EXP 	Stim: autoDraw = True
+567.2029 	EXP 	New trial (rep=0, index=19): OrderedDict([('dist', 1), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+567.2190 	EXP 	Stim: autoDraw = False
+567.2190 	EXP 	text_2: autoDraw = False
+567.2190 	EXP 	Mask_2: autoDraw = True
+577.2837 	EXP 	Mask_2: autoDraw = False
+577.2837 	EXP 	Mask_2: autoDraw = False
+577.2837 	EXP 	Stim: image = 'stim_25_b_u.jpg'
+577.2837 	EXP 	Stim: autoDraw = True
+579.7244 	EXP 	New trial (rep=0, index=20): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+579.7401 	EXP 	Stim: autoDraw = False
+579.7401 	EXP 	text_2: autoDraw = False
+579.7401 	EXP 	Mask_2: autoDraw = True
+583.8145 	EXP 	Mask_2: autoDraw = False
+583.8145 	EXP 	Mask_2: autoDraw = False
+583.8145 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+583.8145 	EXP 	Stim: autoDraw = True
+586.2523 	EXP 	New trial (rep=0, index=21): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+586.2678 	EXP 	Stim: autoDraw = False
+586.2678 	EXP 	text_2: autoDraw = False
+586.2678 	EXP 	Mask_2: autoDraw = True
+588.3366 	EXP 	Mask_2: autoDraw = False
+588.3366 	EXP 	Mask_2: autoDraw = False
+588.3366 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+588.3366 	EXP 	Stim: autoDraw = True
+590.7816 	EXP 	New trial (rep=0, index=22): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+590.7966 	EXP 	Stim: autoDraw = False
+590.7966 	EXP 	text_2: autoDraw = False
+590.7966 	EXP 	Mask_2: autoDraw = True
+598.8750 	EXP 	Mask_2: autoDraw = False
+598.8750 	EXP 	Mask_2: autoDraw = False
+598.8750 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+598.8750 	EXP 	Stim: autoDraw = True
+601.3045 	EXP 	New trial (rep=0, index=23): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+601.3206 	EXP 	Stim: autoDraw = False
+601.3206 	EXP 	text_2: autoDraw = False
+601.3206 	EXP 	Mask_2: autoDraw = True
+605.3854 	EXP 	Mask_2: autoDraw = False
+605.3854 	EXP 	Mask_2: autoDraw = False
+605.3854 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+605.3854 	EXP 	Stim: autoDraw = True
+607.8320 	EXP 	New trial (rep=0, index=24): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'y'), ('Midbreak', 'n')])
+607.8475 	EXP 	Stim: autoDraw = False
+607.8475 	EXP 	text_2: autoDraw = False
+607.8475 	EXP 	Mask_2: autoDraw = True
+617.9072 	EXP 	Mask_2: autoDraw = False
+617.9072 	EXP 	Mask_2: autoDraw = False
+617.9072 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+617.9072 	EXP 	Stim: autoDraw = True
+620.3689 	EXP 	Stim: autoDraw = False
+620.3689 	EXP 	text_2: autoDraw = True
+621.1238 	DATA 	Keypress: c
+621.5524 	EXP 	New trial (rep=0, index=25): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+621.5682 	EXP 	text_2: autoDraw = False
+621.5682 	EXP 	Mask_2: autoDraw = True
+623.6368 	EXP 	Mask_2: autoDraw = False
+623.6368 	EXP 	Mask_2: autoDraw = False
+623.6368 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+623.6368 	EXP 	Stim: autoDraw = True
+626.0816 	EXP 	New trial (rep=0, index=26): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+626.0968 	EXP 	Stim: autoDraw = False
+626.0968 	EXP 	text_2: autoDraw = False
+626.0968 	EXP 	Mask_2: autoDraw = True
+630.1715 	EXP 	Mask_2: autoDraw = False
+630.1715 	EXP 	Mask_2: autoDraw = False
+630.1715 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+630.1715 	EXP 	Stim: autoDraw = True
+632.6090 	EXP 	New trial (rep=0, index=27): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+632.6239 	EXP 	Stim: autoDraw = False
+632.6239 	EXP 	text_2: autoDraw = False
+632.6239 	EXP 	Mask_2: autoDraw = True
+636.7088 	EXP 	Mask_2: autoDraw = False
+636.7088 	EXP 	Mask_2: autoDraw = False
+636.7088 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+636.7088 	EXP 	Stim: autoDraw = True
+639.1361 	EXP 	New trial (rep=0, index=28): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+639.1512 	EXP 	Stim: autoDraw = False
+639.1512 	EXP 	text_2: autoDraw = False
+639.1512 	EXP 	Mask_2: autoDraw = True
+643.2189 	EXP 	Mask_2: autoDraw = False
+643.2189 	EXP 	Mask_2: autoDraw = False
+643.2189 	EXP 	Stim: image = 'stim_80_y_u.jpg'
+643.2189 	EXP 	Stim: autoDraw = True
+645.6628 	EXP 	New trial (rep=0, index=29): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+645.6790 	EXP 	Stim: autoDraw = False
+645.6790 	EXP 	text_2: autoDraw = False
+645.6790 	EXP 	Mask_2: autoDraw = True
+647.7457 	EXP 	Mask_2: autoDraw = False
+647.7457 	EXP 	Mask_2: autoDraw = False
+647.7457 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+647.7457 	EXP 	Stim: autoDraw = True
+650.1921 	EXP 	New trial (rep=0, index=30): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'y'), ('Midbreak', 'n')])
+650.2081 	EXP 	Stim: autoDraw = False
+650.2081 	EXP 	text_2: autoDraw = False
+650.2081 	EXP 	Mask_2: autoDraw = True
+654.2894 	EXP 	Mask_2: autoDraw = False
+654.2894 	EXP 	Mask_2: autoDraw = False
+654.2894 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+654.2894 	EXP 	Stim: autoDraw = True
+656.7340 	EXP 	Stim: autoDraw = False
+656.7340 	EXP 	text_2: autoDraw = True
+657.5394 	DATA 	Keypress: c
+657.9185 	EXP 	New trial (rep=0, index=31): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+657.9336 	EXP 	text_2: autoDraw = False
+657.9336 	EXP 	Mask_2: autoDraw = True
+660.0063 	EXP 	Mask_2: autoDraw = False
+660.0063 	EXP 	Mask_2: autoDraw = False
+660.0063 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+660.0063 	EXP 	Stim: autoDraw = True
+662.4484 	EXP 	New trial (rep=0, index=32): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+662.4628 	EXP 	Stim: autoDraw = False
+662.4628 	EXP 	text_2: autoDraw = False
+662.4628 	EXP 	Mask_2: autoDraw = True
+664.5305 	EXP 	Mask_2: autoDraw = False
+664.5305 	EXP 	Mask_2: autoDraw = False
+664.5305 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+664.5305 	EXP 	Stim: autoDraw = True
+666.9767 	EXP 	New trial (rep=0, index=33): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+666.9921 	EXP 	Stim: autoDraw = False
+666.9921 	EXP 	text_2: autoDraw = False
+666.9921 	EXP 	Mask_2: autoDraw = True
+669.0731 	EXP 	Mask_2: autoDraw = False
+669.0731 	EXP 	Mask_2: autoDraw = False
+669.0731 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+669.0731 	EXP 	Stim: autoDraw = True
+671.5054 	EXP 	New trial (rep=0, index=34): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'y'), ('Midbreak', 'n')])
+671.5217 	EXP 	Stim: autoDraw = False
+671.5217 	EXP 	text_2: autoDraw = False
+671.5217 	EXP 	Mask_2: autoDraw = True
+673.5890 	EXP 	Mask_2: autoDraw = False
+673.5890 	EXP 	Mask_2: autoDraw = False
+673.5890 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+673.5890 	EXP 	Stim: autoDraw = True
+676.0508 	EXP 	Stim: autoDraw = False
+676.0508 	EXP 	text_2: autoDraw = True
+676.6388 	DATA 	Keypress: b
+677.2333 	EXP 	New trial (rep=0, index=35): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+677.2494 	EXP 	text_2: autoDraw = False
+677.2494 	EXP 	Mask_2: autoDraw = True
+687.3148 	EXP 	Mask_2: autoDraw = False
+687.3148 	EXP 	Mask_2: autoDraw = False
+687.3148 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+687.3148 	EXP 	Stim: autoDraw = True
+689.7558 	EXP 	New trial (rep=0, index=36): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+689.7706 	EXP 	Stim: autoDraw = False
+689.7706 	EXP 	text_2: autoDraw = False
+689.7706 	EXP 	Mask_2: autoDraw = True
+693.8551 	EXP 	Mask_2: autoDraw = False
+693.8551 	EXP 	Mask_2: autoDraw = False
+693.8551 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+693.8551 	EXP 	Stim: autoDraw = True
+696.2827 	EXP 	New trial (rep=0, index=37): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+696.2979 	EXP 	Stim: autoDraw = False
+696.2979 	EXP 	text_2: autoDraw = False
+696.2979 	EXP 	Mask_2: autoDraw = True
+698.3640 	EXP 	Mask_2: autoDraw = False
+698.3640 	EXP 	Mask_2: autoDraw = False
+698.3640 	EXP 	Stim: image = 'stim_30_y_u.jpg'
+698.3640 	EXP 	Stim: autoDraw = True
+700.8130 	EXP 	New trial (rep=0, index=38): OrderedDict([('dist', 2), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+700.8282 	EXP 	Stim: autoDraw = False
+700.8282 	EXP 	text_2: autoDraw = False
+700.8282 	EXP 	Mask_2: autoDraw = True
+702.9071 	EXP 	Mask_2: autoDraw = False
+702.9071 	EXP 	Mask_2: autoDraw = False
+702.9071 	EXP 	Stim: image = 'stim_30_b_u.jpg'
+702.9071 	EXP 	Stim: autoDraw = True
+705.3418 	EXP 	New trial (rep=0, index=39): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+705.3568 	EXP 	Stim: autoDraw = False
+705.3568 	EXP 	text_2: autoDraw = False
+705.3568 	EXP 	Mask_2: autoDraw = True
+709.4263 	EXP 	Mask_2: autoDraw = False
+709.4263 	EXP 	Mask_2: autoDraw = False
+709.4263 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+709.4263 	EXP 	Stim: autoDraw = True
+711.8681 	EXP 	New trial (rep=0, index=40): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+711.8838 	EXP 	Stim: autoDraw = False
+711.8838 	EXP 	text_2: autoDraw = False
+711.8838 	EXP 	Mask_2: autoDraw = True
+713.9563 	EXP 	Mask_2: autoDraw = False
+713.9563 	EXP 	Mask_2: autoDraw = False
+713.9563 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+713.9563 	EXP 	Stim: autoDraw = True
+716.3972 	EXP 	New trial (rep=0, index=41): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+716.4129 	EXP 	Stim: autoDraw = False
+716.4129 	EXP 	text_2: autoDraw = False
+716.4129 	EXP 	Mask_2: autoDraw = True
+720.4797 	EXP 	Mask_2: autoDraw = False
+720.4797 	EXP 	Mask_2: autoDraw = False
+720.4797 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+720.4797 	EXP 	Stim: autoDraw = True
+722.9231 	EXP 	New trial (rep=0, index=42): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+722.9396 	EXP 	Stim: autoDraw = False
+722.9396 	EXP 	text_2: autoDraw = False
+722.9396 	EXP 	Mask_2: autoDraw = True
+727.0061 	EXP 	Mask_2: autoDraw = False
+727.0061 	EXP 	Mask_2: autoDraw = False
+727.0061 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+727.0061 	EXP 	Stim: autoDraw = True
+729.4521 	EXP 	New trial (rep=0, index=43): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+729.4673 	EXP 	Stim: autoDraw = False
+729.4673 	EXP 	text_2: autoDraw = False
+729.4673 	EXP 	Mask_2: autoDraw = True
+731.5625 	EXP 	Mask_2: autoDraw = False
+731.5625 	EXP 	Mask_2: autoDraw = False
+731.5625 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+731.5625 	EXP 	Stim: autoDraw = True
+733.9817 	EXP 	New trial (rep=0, index=44): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+733.9966 	EXP 	Stim: autoDraw = False
+733.9966 	EXP 	text_2: autoDraw = False
+733.9966 	EXP 	Mask_2: autoDraw = True
+736.0648 	EXP 	Mask_2: autoDraw = False
+736.0648 	EXP 	Mask_2: autoDraw = False
+736.0648 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+736.0648 	EXP 	Stim: autoDraw = True
+738.5102 	EXP 	New trial (rep=0, index=45): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+738.5253 	EXP 	Stim: autoDraw = False
+738.5253 	EXP 	text_2: autoDraw = False
+738.5253 	EXP 	Mask_2: autoDraw = True
+744.5972 	EXP 	Mask_2: autoDraw = False
+744.5972 	EXP 	Mask_2: autoDraw = False
+744.5972 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+744.5972 	EXP 	Stim: autoDraw = True
+747.0349 	EXP 	New trial (rep=0, index=46): OrderedDict([('dist', 2), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+747.0512 	EXP 	Stim: autoDraw = False
+747.0512 	EXP 	text_2: autoDraw = False
+747.0512 	EXP 	Mask_2: autoDraw = True
+749.1505 	EXP 	Mask_2: autoDraw = False
+749.1505 	EXP 	Mask_2: autoDraw = False
+749.1505 	EXP 	Stim: image = 'stim_80_b_u.jpg'
+749.1505 	EXP 	Stim: autoDraw = True
+751.5639 	EXP 	New trial (rep=0, index=47): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+751.5802 	EXP 	Stim: autoDraw = False
+751.5802 	EXP 	text_2: autoDraw = False
+751.5802 	EXP 	Mask_2: autoDraw = True
+753.6509 	EXP 	Mask_2: autoDraw = False
+753.6509 	EXP 	Mask_2: autoDraw = False
+753.6509 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+753.6509 	EXP 	Stim: autoDraw = True
+756.0936 	EXP 	New trial (rep=0, index=48): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+756.1099 	EXP 	Stim: autoDraw = False
+756.1099 	EXP 	text_2: autoDraw = False
+756.1099 	EXP 	Mask_2: autoDraw = True
+760.1753 	EXP 	Mask_2: autoDraw = False
+760.1753 	EXP 	Mask_2: autoDraw = False
+760.1753 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+760.1753 	EXP 	Stim: autoDraw = True
+762.6223 	EXP 	New trial (rep=0, index=49): OrderedDict([('dist', 2), ('space', 'BOUND'), ('own', 'O'), ('resp', 'y'), ('Midbreak', 'n')])
+762.6362 	EXP 	Stim: autoDraw = False
+762.6362 	EXP 	text_2: autoDraw = False
+762.6362 	EXP 	Mask_2: autoDraw = True
+764.7276 	EXP 	Mask_2: autoDraw = False
+764.7276 	EXP 	Mask_2: autoDraw = False
+764.7276 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+764.7276 	EXP 	Stim: autoDraw = True
+767.1650 	EXP 	Stim: autoDraw = False
+767.1650 	EXP 	text_2: autoDraw = True
+767.8029 	DATA 	Keypress: c
+768.3485 	EXP 	New trial (rep=0, index=50): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+768.3641 	EXP 	text_2: autoDraw = False
+768.3641 	EXP 	Mask_2: autoDraw = True
+770.4198 	EXP 	Mask_2: autoDraw = False
+770.4198 	EXP 	Mask_2: autoDraw = False
+770.4198 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+770.4198 	EXP 	Stim: autoDraw = True
+772.8777 	EXP 	New trial (rep=0, index=51): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+772.8930 	EXP 	Stim: autoDraw = False
+772.8930 	EXP 	text_2: autoDraw = False
+772.8930 	EXP 	Mask_2: autoDraw = True
+778.9712 	EXP 	Mask_2: autoDraw = False
+778.9712 	EXP 	Mask_2: autoDraw = False
+778.9712 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+778.9712 	EXP 	Stim: autoDraw = True
+781.4029 	EXP 	New trial (rep=0, index=52): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+781.4193 	EXP 	Stim: autoDraw = False
+781.4193 	EXP 	text_2: autoDraw = False
+781.4193 	EXP 	Mask_2: autoDraw = True
+783.4857 	EXP 	Mask_2: autoDraw = False
+783.4857 	EXP 	Mask_2: autoDraw = False
+783.4857 	EXP 	Stim: image = 'stim_35_y_u.jpg'
+783.4857 	EXP 	Stim: autoDraw = True
+785.9317 	EXP 	New trial (rep=0, index=53): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+785.9477 	EXP 	Stim: autoDraw = False
+785.9477 	EXP 	text_2: autoDraw = False
+785.9477 	EXP 	Mask_2: autoDraw = True
+792.0338 	EXP 	Mask_2: autoDraw = False
+792.0338 	EXP 	Mask_2: autoDraw = False
+792.0338 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+792.0338 	EXP 	Stim: autoDraw = True
+794.4575 	EXP 	New trial (rep=0, index=54): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+794.4734 	EXP 	Stim: autoDraw = False
+794.4734 	EXP 	text_2: autoDraw = False
+794.4734 	EXP 	Mask_2: autoDraw = True
+798.5489 	EXP 	Mask_2: autoDraw = False
+798.5489 	EXP 	Mask_2: autoDraw = False
+798.5489 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+798.5489 	EXP 	Stim: autoDraw = True
+800.9853 	EXP 	New trial (rep=0, index=55): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'y'), ('Midbreak', 'n')])
+801.0003 	EXP 	Stim: autoDraw = False
+801.0003 	EXP 	text_2: autoDraw = False
+801.0003 	EXP 	Mask_2: autoDraw = True
+805.0655 	EXP 	Mask_2: autoDraw = False
+805.0655 	EXP 	Mask_2: autoDraw = False
+805.0655 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+805.0655 	EXP 	Stim: autoDraw = True
+807.5274 	EXP 	Stim: autoDraw = False
+807.5274 	EXP 	text_2: autoDraw = True
+808.1654 	DATA 	Keypress: b
+808.7109 	EXP 	New trial (rep=0, index=56): OrderedDict([('dist', 3), ('space', 'PPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+808.7262 	EXP 	text_2: autoDraw = False
+808.7262 	EXP 	Mask_2: autoDraw = True
+812.8120 	EXP 	Mask_2: autoDraw = False
+812.8120 	EXP 	Mask_2: autoDraw = False
+812.8120 	EXP 	Stim: image = 'stim_35_b_u.jpg'
+812.8120 	EXP 	Stim: autoDraw = True
+815.2381 	EXP 	New trial (rep=0, index=57): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'n')])
+815.2540 	EXP 	Stim: autoDraw = False
+815.2540 	EXP 	text_2: autoDraw = False
+815.2540 	EXP 	Mask_2: autoDraw = True
+819.3228 	EXP 	Mask_2: autoDraw = False
+819.3228 	EXP 	Mask_2: autoDraw = False
+819.3228 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+819.3228 	EXP 	Stim: autoDraw = True
+821.7654 	EXP 	New trial (rep=0, index=58): OrderedDict([('dist', 3), ('space', 'EPS'), ('own', 'S'), ('resp', 'n'), ('Midbreak', 'n')])
+821.7815 	EXP 	Stim: autoDraw = False
+821.7815 	EXP 	text_2: autoDraw = False
+821.7815 	EXP 	Mask_2: autoDraw = True
+823.8669 	EXP 	Mask_2: autoDraw = False
+823.8669 	EXP 	Mask_2: autoDraw = False
+823.8669 	EXP 	Stim: image = 'stim_85_y_u.jpg'
+823.8669 	EXP 	Stim: autoDraw = True
+826.2943 	EXP 	New trial (rep=0, index=59): OrderedDict([('dist', 3), ('space', 'BOUND'), ('own', 'O'), ('resp', 'n'), ('Midbreak', 'y')])
+826.3103 	EXP 	Stim: autoDraw = False
+826.3103 	EXP 	text_2: autoDraw = False
+826.3103 	EXP 	Mask_2: autoDraw = True
+828.3916 	EXP 	Mask_2: autoDraw = False
+828.3916 	EXP 	Mask_2: autoDraw = False
+828.3916 	EXP 	Stim: image = 'stim_85_b_u.jpg'
+828.3916 	EXP 	Stim: autoDraw = True
+830.8237 	EXP 	window1: recordFrameIntervals = False
+830.8395 	EXP 	Stim: autoDraw = False
+830.8395 	EXP 	text_2: autoDraw = False
+830.8395 	EXP 	text_norm_2: text = 'Pausa'
+830.8395 	EXP 	text_norm: autoDraw = True
+830.8395 	EXP 	text_norm_2: autoDraw = True
+830.8395 	EXP 	text_norm_2: autoDraw = True
+830.8395 	EXP 	image: autoDraw = True
+830.8417 	EXP 	window1: recordFrameIntervals = False
+836.0703 	DATA 	Keypress: escape
+836.8712 	EXP 	window1: mouseVisible = True
